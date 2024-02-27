@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html amp lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Дэдди Казино</title>
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+	<link rel="canonical" href="404.html">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="favicon.png">
+	<style amp-custom>
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			align-items: center;
+			font-size: 16px;
+			font-family: Montserrat, sans-serif;
+			line-height: 1.5;
+			background-color: #1d1a1c;
+			color: #e6e6e6;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			width: 100%;
+			max-width: 1024px;
+			display: block;
+		}
+
+		.logo {
+			display: flex;
+			height: 68px;
+			justify-content: center;
+			align-items: center;
+		}
+
+		/* РљРѕРЅС‚РµР№РЅРµСЂ РІ С€Р°РїРєРµ */
+
+		.header-info {
+			height: 352px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			border-radius: 10px;
+			margin: var(--margin);
+		}
+
+		.product-info {
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			text-shadow: 1px 1px #000;
+		}
+
+		#product-name {
+			font-weight: bold;
+			font-size: 50px;
+		}
+
+		#product-bonus {
+			font-size: 18px;
+		}
+
+		.header-button {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+			margin: 20px 0 0;
+		}
+
+		#header-login {
+			padding: 10px;
+			margin: 0 5px;
+			background: #0e0d34;
+			border-radius: 30px;
+			transition: var(--transition-duration);
+			text-decoration: none;
+			color: #fff;
+		}
+
+		#header-login:hover {
+			background-color: #fff;
+			color: #000;
+		}
+
+		#header-register {
+			padding: 10px;
+			margin: 0 5px;
+			border-radius: 30px;
+			background: linear-gradient(-282.46deg, #ff47a9 -3.16%, #9c1eff 86.37%);
+			color: #fff;
+			transition: var(--transition-duration);
+			text-decoration: none;
+		}
+
+		#header-register:hover {
+			background-color: #edff98;
+		}
+
+		table {
+			margin: 15px 10px;
+			width: calc(100% - 20px);
+			border-radius: 10px;
+			border-width: 1px;
+			border-style: solid;
+			font-size: 80%;
+		}
+
+		tbody {
+			border-color: #507089;
+		}
+
+		/* РџСЂРµРёРјСѓС‰РµСЃС‚РІР° */
+
+		.benefits {
+			display: grid;
+			grid-template: 1fr / 1fr 1fr 1fr 1fr;
+			padding: 10px 0;
+			margin: var(--margin);
+			gap: 10px;
+		}
+
+		.benefits-blocks {
+			background-color: #333;
+			border-radius: 10px;
+			display: flex;
+			align-content: center;
+			justify-content: center;
+			align-items: center;
+			padding: 10px 0;
+			box-sizing: border-box;
+		}
+
+		.benefits-blocks p {
+			padding-left: 10px;
+		}
+
+		/* РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё СЃР»РѕС‚РѕРІ */
+		.slot-char {
+			display: grid;
+			grid-template: 1fr / 1fr 1fr 1fr 1fr;
+			padding: 0 0 10px;
+			margin: var(--margin);
+			gap: 10px;
+		}
+
+		.char-meta {
+			background-color: #2f485d;
+			border-radius: 10px;
+			display: flex;
+			align-content: center;
+			padding: 10px 0;
+			box-sizing: border-box;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		#char-head {
+			font-weight: bold;
+		}
+
+		/* РћРіР»Р°РІР»РµРЅРёРµ */
+
+		#table-of-contents {
+			background-color: #2f485d;
+			padding: 10px;
+			border-radius: 10px;
+			margin: 10px;
+		}
+
+		#table-of-contents ol {
+			margin-left: 0;
+			padding-left: 20px;
+		}
+
+		#table-of-contents p {
+			color: #725ef5;
+			font-size: 120%;
+			font-weight: bold;
+			margin: 5px 0 10px 0;
+		}
+
+		#table-of-contents li {
+			list-style-type: decimal;
+			margin: 5px 0;
+			text-align: left;
+		}
+
+		#table-of-contents a {
+			color: #e6e6e6;
+			text-decoration: none;
+			transition: 0.3s;
+		}
+
+		#table-of-contents a:hover {
+			color: #725ef0;
+		}
+
+		/* FAQ */
+
+		.faq-main {
+			margin: 10px;
+		}
+
+		.faq summary {
+			display: block;
+			padding: 10px 15px;
+			font-weight: 700;
+			cursor: pointer;
+		}
+
+		.faq p {
+			font-size: 90%;
+		}
+
+		.faq details {
+			display: block;
+			background: #2f485d;
+			width: 100%;
+			border-radius: 10px;
+			overflow: hidden;
+			margin: 7px 0 7px;
+		}
+
+		/* РљРѕРЅС‚РµРЅС‚ */
+
+		#button-play {
+			text-decoration: none;
+			background-color: #dafe31;
+			font-weight: bold;
+			border-radius: var(--border-radius);
+			transition: var(--transition-duration);
+			color: #000;
+			text-align: center;
+			padding: 10px 5px;
+			margin: 10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: nowrap;
+		}
+
+		#button-play:hover {
+			background-color: #edff98;
+		}
+
+		.content-image {
+			max-width: 100%;
+			height: auto;
+		}
+
+		img {
+			margin: 10px;
+			max-width: 100%;
+			height: auto;
+		}
+
+		.screen {
+			border-radius: 10px;
+			border: 2px solid #2C3B46;
+			height: auto;
+		}
+
+		#info {
+			border: 2px dashed #DAFE31;
+			border-radius: 10px;
+			padding: 10px;
+			margin: var(--margin);
+		}
+
+		.container p a {
+			color: #2071e0;
+			text-decoration: none;
+		}
+
+		.container li a {
+			color: #2071e0;
+			text-decoration: none;
+		}
+
+		.promo {
+			display: flex;
+			margin: 10px;
+			background-image: linear-gradient(105.99deg, #7451a3 1.11%, #6632ba 100%);
+			padding: 10px;
+			border-radius: 10px;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#promo-name {
+			font-size: 200%;
+			font-weight: bold;
+			color: #dcff00;
+			padding: 0 0 30px;
+		}
+
+		#promo-info {
+			font-size: 110%;
+			font-weight: bold;
+			color: #fff;
+			padding: 30px 0 0;
+		}
+
+		.slot {
+			margin: 10px;
+		}
+
+		iframe {
+			width: 100%;
+			height: 565px;
+			border-radius: 10px;
+		}
+
+		.video {
+			margin: 0 10px;
+		}
+
+		/* РќРѕРІРѕСЃС‚Рё */
+
+		.news-container {
+			margin: var(--margin);
+			margin-top: 10px;
+			margin-bottom: 10px;
+			height: auto;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			align-content: center;
+			flex-wrap: nowrap;
+			transition: 0.3s;
+			background-color: #3c4460;
+			border-radius: 10px;
+			padding: 10px;
+		}
+
+		.news-container img {
+			width: 450px;
+			height: auto;
+			border-radius: 10px;
+			margin: 0;
+		}
+
+		.news-meta {
+			width: 100%;
+			height: auto;
+			display: inline-block;
+			padding-left: 10px;
+		}
+
+		#news-head {
+			height: auto;
+			text-decoration: none;
+			color: #9a89ff;
+			font-weight: bold;
+			font-size: 20px;
+			margin: 0;
+			padding-bottom: 10px;
+			text-align: left;
+		}
+
+		#news-description {
+			height: auto;
+			margin: 0;
+		}
+
+		#news-button {
+			text-decoration: none;
+			display: flex;
+			height: auto;
+			background-color: #5b4fa1;
+			justify-content: center;
+			border-radius: 10px;
+			margin-top: 10px;
+			padding: 10px;
+			color: white;
+			font-size: 14px;
+			transition: 0.3s;
+		}
+
+		#news-button:hover {
+			background-color: #6859c3;
+		}
+
+		.rules {
+			display: flex;
+			margin: 0 10px;
+			justify-content: space-between;
+		}
+
+		.rules-menu {
+			display: flex;
+			flex-direction: column;
+			width: 30%;
+			margin: 15px 10px 10px 0;
+		}
+
+		.rules-menu-sticky {
+			position: sticky;
+			top: 15px;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.rules-menu a {
+			padding: 10px;
+			background-color: #2f485d;
+			transition: 0.3s;
+			cursor: pointer;
+			border-radius: 10px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+
+		.rules-menu a:hover {
+			background-color: #38536a;
+		}
+
+		.rules-meta {
+			width: 70%;
+		}
+
+		.rules-meta p {
+			padding: 0;
+			padding-left: 10px;
+		}
+
+		.rules-menu-sticky a {
+			text-decoration: none;
+			color: #e6e6e6;
+		}
+
+		/* РРіСЂС‹ */
+
+		.table-games {
+			display: grid;
+			grid-template: 1fr / 1fr 1fr 1fr 1fr;
+			gap: 10px;
+			margin: var(--margin);
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+
+		.default-game {
+			position: relative;
+		}
+
+		.default-game img {
+			border-radius: 10px;
+			transition: 0.3s;
+			margin: 0;
+		}
+
+		.default-game img:hover {
+			transform: scale(1.03);
+		}
+
+		.game-text {
+			position: absolute;
+			bottom: 10px;
+			right: 5px;
+			background-color: rgba(0, 0, 0, 0.7);
+			color: white;
+			padding: 5px;
+			border-radius: 10px;
+			font-size: 12px;
+		}
+
+		/* РўР°Р±Р»РёС†Р° РёРіСЂРѕРєРѕРІ */
+
+		.table-player {
+			margin: var(--margin);
+			margin-top: 10px;
+			margin-bottom: 10px;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: nowrap;
+			background-color: #3c4460;
+			border-radius: 10px;
+		}
+
+		.player-name {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.table-name,
+		.table-game,
+		.table-bet,
+		.table-x,
+		.table-win,
+		.table-time {
+			width: 15%;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.table-name {
+			width: 20%;
+		}
+
+		.table-game {
+			width: 20%;
+		}
+
+		.table-head {
+			padding: 20px 10px;
+			border-bottom: solid 1px #464e6b;
+			font-size: 14px;
+		}
+
+		.table-column {
+			font-size: 14px;
+			padding: 15px 10px;
+			border-bottom: solid 1px #464e6b;
+			display: flex;
+			align-items: center;
+		}
+
+		.table-column img {
+			margin: 0;
+			padding-right: 5px;
+
+		}
+
+		.table-column.finish {
+			border-bottom: none;
+		}
+
+		/* РЎР»РѕС‚С‹ */
+
+		.slots {
+			display: grid;
+			grid-template: 1fr/1fr 1fr 1fr 1fr;
+			padding: 10px 0;
+			margin: var(--margin);
+			gap: 10px
+		}
+
+		.slots-blocks {
+			border-radius: 10px;
+			overflow: hidden
+		}
+
+		.slots-blocks {
+			background-color: #2f485d;
+			display: flex;
+			align-content: center;
+			justify-content: center;
+			align-items: center;
+			box-sizing: border-box;
+			height: 150px;
+			position: relative;
+			transition: transform .3s ease-in-out, box-shadow .3s ease-in-out
+		}
+
+		.slots-blocks::before,
+		.slots-overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		.slots-blocks::before {
+			content: '';
+			background-color: rgba(0, 0, 0, .6);
+			border-radius: inherit;
+		}
+
+		.slots-blocks:hover {
+			transform: scale(1.05);
+		}
+
+		.slots-blocks .image-container {
+			width: 100%;
+			height: 100%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border-radius: inherit
+		}
+
+		.slots-overlay {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.slots-text {
+			color: #fff;
+			font-size: 16px;
+			font-weight: 700;
+			text-align: center;
+			margin-bottom: 10px
+		}
+
+		.play-button {
+			font-weight: 700;
+			cursor: pointer;
+		}
+
+		.play-button {
+			background-color: #fff;
+			color: #2f485d;
+			border: 0;
+			border-radius: 20px;
+			padding: 5px 20px;
+			font-size: 14px;
+			transition: background-color .3s ease-in-out, color .3s ease-in-out;
+			text-decoration: none;
+		}
+
+		.play-button:hover {
+			background-color: #d0f426;
+			color: #000
+		}
+
+		.slot-meta {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.slot-meta span {
+			font-size: 12px;
+			padding: 0;
+			margin: 0 10px;
+			margin-bottom: 10px;
+		}
+
+
+		/* РџРѕРґРІР°Р» */
+
+		.breadcrumb {
+			max-width: 100%;
+			height: auto;
+			background-color: #735cfc;
+			border-radius: var(--border-radius);
+			text-align: center;
+			padding: 5px 0;
+			margin: var(--margin);
+		}
+
+		.breadcrumb-item a {
+			text-decoration: none;
+			color: #e6e6e6;
+			font-size: 14px;
+		}
+
+		.menu-footer {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			max-width: 100%;
+			margin: 20px 10px;
+		}
+
+		.back-menu {
+			text-decoration: none;
+			font-size: 12px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			max-width: 100%;
+			margin: 20px 10px;
+		}
+
+		.back-menu a {
+			text-decoration: none;
+			padding: 0 5px;
+			color: #d0f426;
+			transition: 0.3s
+		}
+
+		.back-menu a:hover {
+			color: #378ad0;
+		}
+
+		#button-menu {
+			padding: 5px 10px;
+			font-size: 15px;
+			color: #fff;
+			font-weight: bold;
+			text-decoration: none;
+			width: auto;
+			transition: var(--transition-duration);
+		}
+
+		#button-menu:hover {
+			color: #c9e63f;
+		}
+
+		.providers {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 5px;
+			max-width: 100%;
+			margin: 10px;
+		}
+
+		.providers-container {
+			display: flex;
+			justify-content: center;
+			width: 20%;
+			height: 50px;
+			background-color: #2f485d;
+			border-radius: var(--border-radius);
+		}
+
+		.copyright {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			font-size: 12px;
+			padding-bottom: 30px;
+		}
+
+		#licensed {
+			font-size: 11px;
+			color: #7c7c7c;
+		}
+
+		/* РњРµРґРёР°-Р·Р°РїСЂРѕСЃ РґР»СЏ С‚РµР»РµС„РѕРЅР° */
+		@media (max-width: 767.99px) {
+
+			body,
+			html,
+			header,
+			footer {
+				width: 100%;
+			}
+
+			.benefits {
+				grid-template: 1fr 1fr 1fr 1fr / 1fr;
+			}
+
+			.slot-char {
+				grid-template: 1fr 1fr / 1fr 1fr;
+			}
+
+			.slots {
+				grid-template: 1fr 1fr / 1fr 1fr;
+			}
+
+			.screen {
+				width: calc(100% - 25px);
+			}
+
+			.providers {
+				flex-wrap: wrap;
+			}
+
+			.providers-container {
+				width: 30%;
+			}
+
+			#product-name {
+				font-size: 250%;
+			}
+
+			#product-bonus {
+				font-size: 80%;
+			}
+
+			.menu-container {
+				grid-template: 1fr 1fr 1fr 1fr / 1fr;
+			}
+
+			iframe {
+				height: 260px;
+			}
+
+			.news-container {
+				flex-wrap: wrap;
+			}
+
+			.news-container img {
+				width: 100%;
+			}
+
+			.news-meta {
+				padding-top: 10px;
+				padding-left: 0;
+			}
+
+			.table-games {
+				grid-template: 1fr 1fr / 1fr 1fr;
+			}
+
+			.table-time,
+			.table-x {
+				display: none;
+			}
+
+			.table-name,
+			.table-game,
+			.table-bet,
+			.table-x,
+			.table-win,
+			.table-time {
+				width: 20%;
+			}
+
+			.table-name,
+			.table-game {
+				width: 30%;
+			}
+
+			.slot-meta {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.rules-menu {
+				display: none;
+			}
+
+			.rules-meta {
+				width: 100%;
+			}
+
+			.rules-meta p {
+				padding-left: 0;
+			}
+
+			.rules-meta h1,
+			.rules-meta h2,
+			.rules-meta h3,
+			.rules-meta h4 {
+				padding-left: 0;
+			}
+		}
+
+		/* РњРµРґРёР°-Р·Р°РїСЂРѕСЃ РґР»СЏ РїР»Р°РЅС€РµС‚Р° Рё РЅРёР¶Рµ */
+		@media (max-width: 1023.99px) {
+
+			header,
+			.container {
+				width: 100%;
+			}
+
+			iframe {
+				height: 341px;
+			}
+		}
+
+		/* РњРµРґРёР°-Р·Р°РїСЂРѕСЃ РґР»СЏ РїР»Р°РЅС€РµС‚Р° */
+		@media (min-width: 768px) and (max-width: 1023.99px) {
+			.benefits {
+				grid-template: 1fr 1fr / 1fr 1fr;
+			}
+
+			.screen {
+				width: calc(100% - 25px);
+			}
+
+			.menu-container {
+				grid-template: 1fr 1fr / 1fr 1fr;
+			}
+
+			iframe {
+				height: 480px;
+			}
+
+			.news-container img {
+				width: 320px;
+			}
+		}
+
+		/* РњРµРґРёР°-Р·Р°РїСЂРѕСЃ РґР»СЏ РЅРѕСѓС‚Р±СѓРєР° */
+		@media (min-width: 1024px) and (max-width: 1365.99px) {
+			.container {
+				width: 970px;
+			}
+
+			.screen {
+				width: calc(100% - 20px);
+			}
+
+			iframe {
+				height: 535px;
+			}
+		}
+
+		/* РњРµРґРёР°-Р·Р°РїСЂРѕСЃ РґР»СЏ РєРѕРјРїСЊСЋС‚РµСЂР° */
+		@media (min-width: 1366px) {
+			.container {
+				width: 1024px;
+			}
+
+			.screen {
+				width: calc(100% - 20px);
+			}
+		}
+
+		:root {
+			--transition-duration: 0.3s;
+			--border-radius: 10px;
+			--margin: 0 10px;
+		}
+
+		a:-webkit-any-link {
+			text-decoration-color: #d0f426;
+		}
+
+		p,
+		li {
+			text-align: justify;
+			padding: 0 10px;
+		}
+
+		h1 {
+			margin: 15px 0 0;
+			color: #fff;
+			font-size: 24px;
+			padding: 0 10px;
+		}
+
+		h2 {
+			margin: 15px 0 0;
+			color: #fff;
+			font-size: 21px;
+			padding: 0 10px;
+		}
+
+		h3 {
+			margin: 10px 0 5px;
+			color: #fff;
+			font-size: 18px;
+			padding: 0 10px;
+		}
+
+		h4 {
+			margin: 10px 0 5px;
+			color: #fff;
+			font-size: 16px;
+			padding: 0 10px;
+		}
+
+		.reviews ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		.reviews li {
+			padding: 0;
+		}
+
+		.error {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			text-align: center;
+			margin: 50px 0;
+		}
+
+		.error h1 {
+			font-size: 120px;
+		}
+
+		.error h2 {
+			font-size: 50px;
+		}
+	</style>
+	<style amp-boilerplate>
+		body {
+			-webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+			-moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+			-ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+			animation: -amp-start 8s steps(1, end) 0s 1 normal both
+		}
+
+		@-webkit-keyframes -amp-start {
+			from {
+				visibility: hidden
+			}
+
+			to {
+				visibility: visible
+			}
+		}
+
+		@-moz-keyframes -amp-start {
+			from {
+				visibility: hidden
+			}
+
+			to {
+				visibility: visible
+			}
+		}
+
+		@-ms-keyframes -amp-start {
+			from {
+				visibility: hidden
+			}
+
+			to {
+				visibility: visible
+			}
+		}
+
+		@-o-keyframes -amp-start {
+			from {
+				visibility: hidden
+			}
+
+			to {
+				visibility: visible
+			}
+		}
+
+		@keyframes -amp-start {
+			from {
+				visibility: hidden
+			}
+
+			to {
+				visibility: visible
+			}
+		}
+	</style><noscript>
+		<style amp-boilerplate>
+			body {
+				-webkit-animation: none;
+				-moz-animation: none;
+				-ms-animation: none;
+				animation: none
+			}
+		</style>
+	</noscript>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<a href="" target="_blank" rel="nofollow">
+					<svg width="107" height="40" viewBox="0 0 107 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#svg-25be3f)">
+							<path
+								d="M14.8876 9.81612C13.5114 8.39541 11.4894 7.50275 9.05983 7.50275C2.71168 7.50275 0 11.9661 0 17.9161C0 23.8661 2.71168 28.3828 9.05983 28.3828C11.4894 28.3828 13.5114 27.4902 14.8876 26.0286V28.3828H20.1448V0H14.8876V9.81612ZM10.0724 23.118C6.71493 23.118 5.25721 22.1059 5.25721 17.9255C5.25721 13.7451 6.71493 12.777 10.0724 12.777C13.4299 12.777 14.8876 13.7891 14.8876 17.9161C14.8876 22.0431 13.4299 23.118 10.0724 23.118Z"
+								fill="white"></path>
+							<path
+								d="M40.1267 17.344C40.1267 16.0503 39.8723 14.7693 39.3781 13.5743C38.8839 12.3793 38.1595 11.2937 37.2464 10.3796C36.3333 9.46559 35.2494 8.74101 34.0567 8.24737C32.8641 7.75372 31.586 7.50069 30.2957 7.50276H24.3394V12.777H31.0105C31.5153 12.7766 32.0153 12.876 32.4818 13.0695C32.9483 13.263 33.3721 13.5468 33.7291 13.9048C34.0861 14.2627 34.3691 14.6876 34.5621 15.1554C34.7551 15.6231 34.8543 16.1244 34.8539 16.6305C33.8413 15.5336 32.2644 14.6 29.2299 14.6C24.2956 14.6 21.9883 17.7652 21.9883 21.4962C21.9883 25.2271 24.2956 28.3923 29.2299 28.3923C32.2644 28.3923 33.8413 27.4179 34.8539 26.3618V28.3923H42.7412V23.118H40.1267V17.344ZM31.0512 23.6052C28.2988 23.6052 27.2486 23.118 27.2486 21.4962C27.2486 19.8743 28.2988 19.3871 31.0512 19.3871C33.8037 19.3871 34.8539 19.8743 34.8539 21.4962C34.8539 23.118 33.8005 23.6052 31.0512 23.6052Z"
+								fill="white"></path>
+							<path
+								d="M58.2555 26.038V28.3923H63.5159V0H58.2555V9.81612C56.8793 8.39541 54.8573 7.50275 52.4309 7.50275C46.0796 7.50275 43.3711 11.9661 43.3711 17.9255C43.3711 23.885 46.0796 28.3923 52.4309 28.3923C54.8605 28.3923 56.8793 27.4996 58.2555 26.038ZM48.6283 17.9161C48.6283 13.7797 50.086 12.7676 53.4435 12.7676C56.801 12.7676 58.2555 13.7891 58.2555 17.9161C58.2555 22.0431 56.801 23.1086 53.4435 23.1086C50.086 23.1086 48.6283 22.1059 48.6283 17.9161Z"
+								fill="url(#svg-30ef83)"></path>
+							<path
+								d="M79.695 9.81612C78.3188 8.39541 76.2968 7.50275 73.8704 7.50275C67.5191 7.50275 64.8105 11.9661 64.8105 17.9255C64.8105 23.885 67.5191 28.3923 73.8704 28.3923C76.2968 28.3923 78.3188 27.4996 79.695 26.038V28.3923H84.9553V0H79.695V9.81612ZM74.8829 23.118C71.5255 23.118 70.0678 22.1059 70.0678 17.9255C70.0678 13.7451 71.5255 12.777 74.8829 12.777C78.2404 12.777 79.695 13.7891 79.695 17.9161C79.695 22.0431 78.2404 23.118 74.8829 23.118Z"
+								fill="url(#svg-1491e2)"></path>
+							<path
+								d="M101.743 7.50275V16.8317C101.743 20.0754 100.285 21.0907 97.1315 21.0907C93.9778 21.0907 92.5201 20.0754 92.5201 16.8317V7.50275H87.2598V17.036C87.2598 22.59 89.7677 26.3618 96.119 26.3618C98.5454 26.3618 100.53 25.4723 101.743 24.1333C101.743 25.5854 101.168 26.9781 100.143 28.005C99.1193 29.0318 97.7303 29.6087 96.282 29.6087H90.0122V34.8892H96.3823C97.7776 34.8896 99.1592 34.6142 100.448 34.0788C101.737 33.5433 102.908 32.7583 103.895 31.7687C104.881 30.779 105.663 29.6041 106.195 28.3112C106.728 27.0184 107.002 25.6328 107 24.2338V7.50275H101.743Z"
+								fill="white"></path>
+							<path
+								d="M47.8506 30.2122V35.7221C53.6019 38.536 59.9172 39.9985 66.3166 39.9985C72.7161 39.9985 79.0314 38.536 84.7827 35.7221V30.2122C79.1319 33.3524 72.7774 35 66.3166 35C59.8559 35 53.5014 33.3524 47.8506 30.2122Z"
+								fill="url(#svg-8ff08f)"></path>
+						</g>
+						<defs>
+							<linearGradient id="svg-30ef83" x1="43.3711" y1="14.1946" x2="63.5159" y2="14.1946"
+								gradientUnits="userSpaceOnUse">
+								<stop stop-color="#9D33C9"></stop>
+								<stop offset="0.45" stop-color="#9331CC"></stop>
+								<stop offset="1" stop-color="#8D2FCE"></stop>
+							</linearGradient>
+							<linearGradient id="svg-1491e2" x1="64.8105" y1="14.1946" x2="84.9553" y2="14.1946"
+								gradientUnits="userSpaceOnUse">
+								<stop stop-color="#892DD0"></stop>
+								<stop offset="0.52" stop-color="#7B2AD5"></stop>
+								<stop offset="1" stop-color="#7529D7"></stop>
+							</linearGradient>
+							<linearGradient id="svg-8ff08f" x1="47.8506" y1="35.1061" x2="84.7827" y2="35.1061"
+								gradientUnits="userSpaceOnUse">
+								<stop stop-color="#9D33C9"></stop>
+								<stop offset="0.27" stop-color="#8E2FCE"></stop>
+								<stop offset="0.69" stop-color="#7C2AD5"></stop>
+								<stop offset="1" stop-color="#7628D7"></stop>
+							</linearGradient>
+							<clipPath id="svg-25be3f">
+								<rect width="107" height="40" fill="white"></rect>
+							</clipPath>
+						</defs>
+					</svg>
+				</a>
+			</div>
+		</div>
+		<div class="container">
+			<div class="header-info">
+				<div class="product-info">
+					<h1 id="product-name" style="color: white">Daddy Casino</h1>
+					<span style="font-size:55px;font-weight: 900;"><span style="font-size:18px;color: red;">промокод</span>
+						REGPLAY</span>
+					<span id="product-bonus">Бонус новым игрокам <b>+150%</b> +150FS за регистрацию и первый
+						депозит!</span>
+				</div>
+				<div class="header-button">
+					<a id="header-login" href="" rel="nofollow" target="_blank">Вход</a>
+					<a id="header-register" href="" rel="nofollow" target="_blank">Регистрация</a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="benefits">
+				<div class="benefits-blocks">
+					<img src="content/img/jackpot.svg">
+					<p><span style="font-size: 120%"><b>Кэшбэк</b></span><br><span style="font-size: 80%">каждый
+							понедельник</span></p>
+				</div>
+				<div class="benefits-blocks">
+					<img src="content/img/chat.svg">
+					<p><span style="font-size: 120%"><b>
+								Лутбокс</b></span><br><span style="font-size: 80%">Гарантированный бездепозитный
+							бонус</span></p>
+				</div>
+				<div class="benefits-blocks">
+					<img src="content/img/lightning.svg">
+					<p><span style="font-size: 120%"><b>
+								Достижения</b></span><br><span style="font-size: 80%">Вознаграждение за достижение
+							целей</span></p>
+				</div>
+				<div class="benefits-blocks"><img src="content/img/game.svg">
+					<p><span style="font-size: 120%"><b>Магазин</b></span><br><span style="font-size: 80%; color: #d0f426">Покупка
+							дополнительных бонусов</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="error">
+			<h1>404</h1>
+			<h2>Страница не найдена</h2>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+
+			<div class="container">
+				<div class="providers">
+					<div class="providers-container">
+						<img src="content/img/netent.svg" alt="" loading="lazy" width="60px;">
+					</div>
+					<div class="providers-container">
+						<img src="content/img/gamzix.svg" alt="" loading="lazy" width="60px;">
+					</div>
+					<div class="providers-container">
+						<img src="content/img/relax-gaming.svg" alt="" loading="lazy" width="60px;">
+					</div>
+					<div class="providers-container">
+						<img src="content/img/evoplay.svg" alt="" loading="lazy" width="60px;">
+					</div>
+					<div class="providers-container">
+						<img src="content/img/pragmatic-play.svg" alt="" loading="lazy" width="60px;">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="logo">
+					<svg width="107" height="40" viewBox="0 0 107 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#svg-25be3f)">
+							<path
+								d="M14.8876 9.81612C13.5114 8.39541 11.4894 7.50275 9.05983 7.50275C2.71168 7.50275 0 11.9661 0 17.9161C0 23.8661 2.71168 28.3828 9.05983 28.3828C11.4894 28.3828 13.5114 27.4902 14.8876 26.0286V28.3828H20.1448V0H14.8876V9.81612ZM10.0724 23.118C6.71493 23.118 5.25721 22.1059 5.25721 17.9255C5.25721 13.7451 6.71493 12.777 10.0724 12.777C13.4299 12.777 14.8876 13.7891 14.8876 17.9161C14.8876 22.0431 13.4299 23.118 10.0724 23.118Z"
+								fill="white"></path>
+							<path
+								d="M40.1267 17.344C40.1267 16.0503 39.8723 14.7693 39.3781 13.5743C38.8839 12.3793 38.1595 11.2937 37.2464 10.3796C36.3333 9.46559 35.2494 8.74101 34.0567 8.24737C32.8641 7.75372 31.586 7.50069 30.2957 7.50276H24.3394V12.777H31.0105C31.5153 12.7766 32.0153 12.876 32.4818 13.0695C32.9483 13.263 33.3721 13.5468 33.7291 13.9048C34.0861 14.2627 34.3691 14.6876 34.5621 15.1554C34.7551 15.6231 34.8543 16.1244 34.8539 16.6305C33.8413 15.5336 32.2644 14.6 29.2299 14.6C24.2956 14.6 21.9883 17.7652 21.9883 21.4962C21.9883 25.2271 24.2956 28.3923 29.2299 28.3923C32.2644 28.3923 33.8413 27.4179 34.8539 26.3618V28.3923H42.7412V23.118H40.1267V17.344ZM31.0512 23.6052C28.2988 23.6052 27.2486 23.118 27.2486 21.4962C27.2486 19.8743 28.2988 19.3871 31.0512 19.3871C33.8037 19.3871 34.8539 19.8743 34.8539 21.4962C34.8539 23.118 33.8005 23.6052 31.0512 23.6052Z"
+								fill="white"></path>
+							<path
+								d="M58.2555 26.038V28.3923H63.5159V0H58.2555V9.81612C56.8793 8.39541 54.8573 7.50275 52.4309 7.50275C46.0796 7.50275 43.3711 11.9661 43.3711 17.9255C43.3711 23.885 46.0796 28.3923 52.4309 28.3923C54.8605 28.3923 56.8793 27.4996 58.2555 26.038ZM48.6283 17.9161C48.6283 13.7797 50.086 12.7676 53.4435 12.7676C56.801 12.7676 58.2555 13.7891 58.2555 17.9161C58.2555 22.0431 56.801 23.1086 53.4435 23.1086C50.086 23.1086 48.6283 22.1059 48.6283 17.9161Z"
+								fill="url(#svg-30ef83)"></path>
+							<path
+								d="M79.695 9.81612C78.3188 8.39541 76.2968 7.50275 73.8704 7.50275C67.5191 7.50275 64.8105 11.9661 64.8105 17.9255C64.8105 23.885 67.5191 28.3923 73.8704 28.3923C76.2968 28.3923 78.3188 27.4996 79.695 26.038V28.3923H84.9553V0H79.695V9.81612ZM74.8829 23.118C71.5255 23.118 70.0678 22.1059 70.0678 17.9255C70.0678 13.7451 71.5255 12.777 74.8829 12.777C78.2404 12.777 79.695 13.7891 79.695 17.9161C79.695 22.0431 78.2404 23.118 74.8829 23.118Z"
+								fill="url(#svg-1491e2)"></path>
+							<path
+								d="M101.743 7.50275V16.8317C101.743 20.0754 100.285 21.0907 97.1315 21.0907C93.9778 21.0907 92.5201 20.0754 92.5201 16.8317V7.50275H87.2598V17.036C87.2598 22.59 89.7677 26.3618 96.119 26.3618C98.5454 26.3618 100.53 25.4723 101.743 24.1333C101.743 25.5854 101.168 26.9781 100.143 28.005C99.1193 29.0318 97.7303 29.6087 96.282 29.6087H90.0122V34.8892H96.3823C97.7776 34.8896 99.1592 34.6142 100.448 34.0788C101.737 33.5433 102.908 32.7583 103.895 31.7687C104.881 30.779 105.663 29.6041 106.195 28.3112C106.728 27.0184 107.002 25.6328 107 24.2338V7.50275H101.743Z"
+								fill="white"></path>
+							<path
+								d="M47.8506 30.2122V35.7221C53.6019 38.536 59.9172 39.9985 66.3166 39.9985C72.7161 39.9985 79.0314 38.536 84.7827 35.7221V30.2122C79.1319 33.3524 72.7774 35 66.3166 35C59.8559 35 53.5014 33.3524 47.8506 30.2122Z"
+								fill="url(#svg-8ff08f)"></path>
+						</g>
+						<defs>
+							<linearGradient id="svg-30ef83" x1="43.3711" y1="14.1946" x2="63.5159" y2="14.1946"
+								gradientUnits="userSpaceOnUse">
+								<stop stop-color="#9D33C9"></stop>
+								<stop offset="0.45" stop-color="#9331CC"></stop>
+								<stop offset="1" stop-color="#8D2FCE"></stop>
+							</linearGradient>
+							<linearGradient id="svg-1491e2" x1="64.8105" y1="14.1946" x2="84.9553" y2="14.1946"
+								gradientUnits="userSpaceOnUse">
+								<stop stop-color="#892DD0"></stop>
+								<stop offset="0.52" stop-color="#7B2AD5"></stop>
+								<stop offset="1" stop-color="#7529D7"></stop>
+							</linearGradient>
+							<linearGradient id="svg-8ff08f" x1="47.8506" y1="35.1061" x2="84.7827" y2="35.1061"
+								gradientUnits="userSpaceOnUse">
+								<stop stop-color="#9D33C9"></stop>
+								<stop offset="0.27" stop-color="#8E2FCE"></stop>
+								<stop offset="0.69" stop-color="#7C2AD5"></stop>
+								<stop offset="1" stop-color="#7628D7"></stop>
+							</linearGradient>
+							<clipPath id="svg-25be3f">
+								<rect width="107" height="40" fill="white"></rect>
+							</clipPath>
+						</defs>
+					</svg>
+				</div>
+			</div>
+			<div class="container">
+				<p id="licensed">
+				</p>
+			</div>
+			<div class="container">
+				<div class="copyright">
+					<p style="text-align: left">&copy; DaddyCasino.Promo Все права защищены.</p>
+					<p style="text-align: right">Traflow Media N.V. (reg. number 156583)</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
